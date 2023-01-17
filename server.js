@@ -9,10 +9,12 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
-const mongouri = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/socialdb'
+// const mongouri = process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/socialdb';
+
+const mongouri = 'mongodb://127.0.0.1:27017/socialdb';
 
 mongoose.connect(
-  mongouri.at,
+  mongouri,
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,

@@ -16,12 +16,15 @@ const UserSchema = new Schema(
       match: [/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/, 'Please fill a valid email address']
 
     },
+    createdAt: {
+      type: Date,
+      default: Date.now,
+      get: createdAtVal => dateFormat(createdAtVal)
+    },
     thoughts: {
       thoughtsID: [],
     },
-    friends: {
-      friendsID: [],
-    }
+    friends: [],
   },
   {
     toJSON: {

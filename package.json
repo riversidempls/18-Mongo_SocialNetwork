@@ -1,0 +1,19 @@
+{
+  "name": "18-mongo_socialnetwork",
+  "version": "1.0.0",
+  "description": "For FS Bootcamp challenge 18",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/riversidempls/18-Mongo_SocialNetwork.git"
+  },
+  "author": "Conor Donnelly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/riversidempls/18-Mongo_SocialNetwork/issues"
+  },
+  "homepage": "https://github.com/riversidempls/18-Mongo_SocialNetwork#readme"
+}

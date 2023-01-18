@@ -24,7 +24,9 @@ const UserSchema = new Schema(
     thoughts: {
       thoughtsID: [],
     },
-    friends: [],
+    friends: {
+      type: Array
+    },
   },
   {
     toJSON: {

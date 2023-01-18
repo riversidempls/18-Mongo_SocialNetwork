@@ -25,5 +25,5 @@ https://drive.google.com/file/d/1YzCVHLBm_sU5v-Eb8VN35bFUuBBDBqHv/view
 
 ## Author
 
-This tutorial was created by Conor Donnelly for challenge 17 of Full Stack Coding Bootcamp at the University of Minnesota in January of 2023.
+This tutorial was created by Conor Donnelly for challenge 18 of Full Stack Coding Bootcamp at the University of Minnesota in January of 2023.
 You can find my GitHub profile at https://github.com/riversidempls
